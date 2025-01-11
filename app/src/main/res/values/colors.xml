@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+        <!-- Gradient Colors (Lighter) -->
+        <color name="background_gradient_start">#FFE0B2</color> <!-- Lighter Orange -->
+        <color name="background_gradient_center">#FFFFCC</color> <!-- Lighter Yellow -->
+        <color name="background_gradient_end">#B3E5FC</color> <!-- Lighter Blue --><!-- Blue -->
+</resources>
