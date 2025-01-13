@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "953967074911",
+    "project_id": "todolist-4e9fb",
+    "storage_bucket": "todolist-4e9fb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953967074911:android:7290d5192cf0552f4b45ea",
+        "android_client_info": {
+          "package_name": "com.example.todofinallistapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953967074911-4rjucvg0vqfae1grd1eadraa3d9a66us.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.todofinallistapp",
+            "certificate_hash": "09d0e921a537fdc35cc4dc1d9d0efa145c2b201f"
+          }
+        },
+        {
+          "client_id": "953967074911-kf1l2jli0g6bt54kpv1cr0j476f8lq5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOM2nlRpfQrn2NIBW21cSFHmDHy2RHsPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953967074911-kf1l2jli0g6bt54kpv1cr0j476f8lq5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

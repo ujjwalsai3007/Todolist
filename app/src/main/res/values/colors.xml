@@ -7,4 +7,8 @@
         <color name="background_gradient_start">#FFE0B2</color> <!-- Lighter Orange -->
         <color name="background_gradient_center">#FFFFCC</color> <!-- Lighter Yellow -->
         <color name="background_gradient_end">#B3E5FC</color> <!-- Lighter Blue --><!-- Blue -->
+
+    <color name="orange_primary">#FFB74D</color>
+    <color name="blue_accent">#29B6F6</color>
+    <color name="text_secondary">#757575</color>
 </resources>

@@ -1,7 +1,7 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:fillViewport="true"
     android:background="@drawable/background_gradient"
     android:padding="16dp">
@@ -9,45 +9,27 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical">
 
         <!-- Title -->
         <TextView
-            android:id="@+id/titleTextView"
+            android:id="@+id/signInTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign Up"
-            android:textSize="24sp"
-            android:textStyle="bold"
+            android:layout_marginBottom="24dp"
+            android:text="Sign-In"
             android:textColor="@android:color/black"
-            android:gravity="center"
-            android:layout_marginBottom="32dp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
-        <!-- Full Name Field -->
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/nameInputLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Full Name"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_marginBottom="16dp">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/nameEditText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <!-- Email Field -->
+        <!-- Email Input -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/emailInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="16dp"
+            android:hint="Email">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/emailEditText"
@@ -56,15 +38,13 @@
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Password Field -->
+        <!-- Password Input -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/passwordInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_marginBottom="24dp"
-            app:endIconMode="password_toggle">
+            android:hint="Password">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/passwordEditText"
@@ -73,16 +53,15 @@
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Signup Button -->
+        <!-- Sign-In Button -->
         <Button
-            android:id="@+id/signupButton"
+            android:id="@+id/signinButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:backgroundTint="@color/orange_primary"
-            android:text="Create Account"
-            android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:text="Sign In"
+            android:textColor="@android:color/white" />
 
         <!-- Google Sign-In Button -->
         <Button
@@ -92,19 +71,17 @@
             android:layout_marginBottom="16dp"
             android:backgroundTint="@color/blue_accent"
             android:text="Sign in with Google"
-            android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:textColor="@android:color/white" />
 
-        <!-- Already Have an Account -->
+        <!-- Sign-Up Redirect -->
         <TextView
-            android:id="@+id/signInTextView"
+            android:id="@+id/signUpTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Already have an account? Sign In"
-            android:textSize="14sp"
-            android:textColor="@android:color/darker_gray"
+            android:layout_gravity="center"
             android:layout_marginTop="16dp"
-            android:textAlignment="center" />
-
+            android:text="Don't have an account? Sign Up"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp" />
     </LinearLayout>
 </ScrollView>
