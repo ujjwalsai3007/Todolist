@@ -3,6 +3,7 @@ package com.example.todofinallistapp
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
@@ -39,6 +40,12 @@ class SignupActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.googleSignInButton).setOnClickListener {
             signInWithGoogle()
+        }
+
+        findViewById<TextView>(R.id.signInTextView).setOnClickListener {
+            val intent = Intent(this, SigninActivity::class.java)
+            startActivity(intent)
+            finish()
         }
 
     }
