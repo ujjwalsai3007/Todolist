@@ -2,6 +2,14 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="primary">#FF6B6B</color>
+    <color name="primary_dark">#E95F5F</color>
+    <color name="accent">#FFB6C1</color>
+    <color name="background">#FFF5F5</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="error">#B00020</color>
+    <color name="success">#4CAF50</color>
 
         <!-- Gradient Colors (Lighter) -->
         <color name="background_gradient_start">#FFE0B2</color> <!-- Lighter Orange -->
@@ -10,5 +18,4 @@
 
     <color name="orange_primary">#FFB74D</color>
     <color name="blue_accent">#29B6F6</color>
-    <color name="text_secondary">#757575</color>
 </resources>
